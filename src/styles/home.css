@@ -1,0 +1,80 @@
+
+.homePageLayout{
+    display:flex;
+    flex-direction:row;
+    height:100vh;
+}
+.homePageImageSection{
+    flex:2;
+    height:100vh;
+}
+.homePageDescSection{
+    flex:1;
+    margin-left:20px
+}
+.homePageImage{
+    height:100%;
+    width:100%;
+    object-fit:scale-down;
+}
+.aboutLink, .equipmentLink, .servicesLink, .membershipsLink, .contactLink, .logoSection{
+    display:inline-block;
+    margin-right:25px;
+    margin-top:20px;
+    font-weight:600;
+    font-size:14px;
+    cursor:pointer;
+}
+.welcomeLineSection{
+    color:rgb(233, 149, 65);
+    font-weight:bold;
+    font-size:15px;
+    margin-top:100px;
+    margin-bottom:25px;
+}
+.tagline{
+    font-weight:bold;
+    font-size:43px;
+}
+.subTagline{
+    margin-top:20px;
+    font-weight:500;
+    font-size:14px;
+    line-height: 22px;
+}
+.joinBtn{
+    color:white;
+    background-color:rgb(233, 149, 65);
+    border:none;
+    border-radius:7px;
+    font-size:15px;
+    font-weight:bold;
+    padding:15px;
+    margin-top:30px;
+    width:120px;
+    cursor:pointer;
+    transition: transform 0.1s;
+}
+.joinBtn:hover{
+    transform:scale(1.1);
+    box-shadow: 0 2px 4px rgba(221, 215, 215, 0.3);
+}
+.homePageStatsCountSection{
+    margin-top:60px;
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:5px;
+}
+.homePageStatsSection{
+    font-weight:bold;
+    font-size:10px;
+    color:rgb(233, 149, 65);
+}
+.customerCount, .trainerCount, .challengesCount, .transformationsCount{
+    margin-right:70px;
+    text-align:left;
+}
+.customerCountTag, .trainerCountTag, .challengesCountTag, .transformationsCountTag{
+    margin-right:50px;
+    text-align:left;
+}
