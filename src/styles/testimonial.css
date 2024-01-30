@@ -1,0 +1,96 @@
+.testimonialSection{
+    margin-top:30px;
+    height:50vh;
+    margin-left:150px;
+    margin-right:150px;
+}
+.testimonialHeader{
+    text-align:center;
+    font-size:13px !important;
+    font-weight:bold;
+    color:orange;
+}
+.testimonialTagline{
+    margin-top:-5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:45px;
+    margin-top:-5px;
+}
+.testimonialsCarouselCard{
+    margin-top:30px;
+    width:270px;
+    height:150px;
+    border:1px solid rgb(200, 200, 200);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.testimonialCard{
+    display:flex;
+    width:100%;
+}
+.colorSection{
+    background-color:rgba(16, 98, 222, 0.792) !important;
+    flex-basis: 20%;
+    height:150px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+.reviewerImageContainer{
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    margin-top:15px;
+    position: absolute;
+    margin-left:25px;
+    z-index:10;
+}
+.reviewerImage{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    object-fit:contain;
+    border-radius:50%;
+}
+.reviewsSection{
+    flex:3;
+    padding:10px;
+    margin-right:20px;
+}
+.reviewerName
+{   text-align:left;
+    margin-left:20px;
+    font-size:15px;
+    font-weight:bold;
+    margin-top:5px;
+}
+.reviewerDesignation{
+    text-align:left;
+    margin-left:20px;
+    font-size:14px;
+    font-weight:500;
+    color:grey;
+}
+.review{
+    text-align:left;
+    font-weight:500;
+    font-size:12px;
+    margin-left:20px;
+    margin-top:5px;
+    color:grey;
+}
+.semicolonIcon{
+    font-size:25px;
+    color:rgb(194, 194, 194);
+    margin-left:40px;
+    vertical-align: middle;
+}
+
+.check ul{
+    position:relative !important;
+}
+
+

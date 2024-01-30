@@ -1,0 +1,112 @@
+.trainersSection{
+    height:80vh;
+    margin-right:150px;
+    margin-left:150px;
+    margin-top:-130px;
+}
+.trainersHeader{
+    text-align:center;
+    font-size:13px;
+    font-weight:bold;
+    color:orange;
+}
+.trainersTagline{
+    text-align:center;
+    font-weight:bold;
+    font-size:45px;
+    margin-top:-5px;
+}
+.testimonialCarouselCard{
+    margin-top:30px;
+    margin-left:50px;
+    height:300px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(172, 172, 172, 0.7);
+}
+.testimonialImage{
+    overflow:hidden;
+    object-fit:contain;
+    height:300px;
+    padding:10px;
+    position:relative;
+}
+.overlayTestimonialDesc{
+    position:absolute;
+    background-color:black;
+    z-index:10;
+    width:265px;
+    margin-left:750px;
+    margin-top:200px;
+    opacity:0.5;
+    padding:5px;
+}
+.testimonialName{
+    font-weight:bold;
+    margin-top:3px;
+    margin-bottom:2px;
+    font-size:15px;
+    color:white;
+}
+.testimonialOccupation{
+    font-size:12px;
+    color:white;
+    font-weight:500;
+}
+.control-arrow {
+   background-color:rgba(16, 98, 222, 0.792) !important;
+   border-radius: 50% !important;
+   margin-top:130px !important;
+   height:40px !important;
+   width: 40px !important;
+   position: absolute;
+   margin-left:5px !important;
+   margin-right:7px !important;
+}
+.dot{
+    background-color: rgba(16, 98, 222, 0.792) !important;
+}
+.control-next{
+    margin-left:10px !important;
+}
+.carousel-hidden {
+    display: none;
+  }
+
+  .modalCloseBtn{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top:20px;
+    margin-right:20px;
+    border:none;
+    background-color:rgb(214, 214, 214);
+  }
+  .modalSection{
+    display:flex;
+    height:100%;
+    justify-content: space-between;
+    gap:20px;
+  }
+  .trainerImageSection{
+    flex:1;
+    background-color: green;
+  }
+  .trainerImage{
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+  }
+  .trainerDescription{
+    flex:1;
+    background-color:rgb(214, 214, 214);
+    padding:10px;
+  }
+  .closeIcon{
+    font-size:25px;
+    vertical-align: middle;
+  }

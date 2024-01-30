@@ -1,0 +1,165 @@
+.bmiSection{
+    height:150vh;
+    margin-top:50px;
+}
+.chooseUsSection{
+    margin-left:150px;
+    margin-right:150px;
+    display:flex;
+}
+.chooseUsLottieContainer{
+    flex:1;
+    margin-left:-100px;
+}
+.chooseUsDescription{
+    flex:1;
+    text-align:left;
+    margin-left:20px;
+}
+.chooseUsHeader{
+    font-size:13px;
+    color:orange;
+    font-weight:bold;
+}
+.chooseUsTagline{
+    font-weight:bold;
+    font-size:45px;
+    color:black;
+}
+.reasonsContainer{
+    text-align:left;
+    line-height:30px;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    margin-top:20px;
+}
+.bmiCalculationSection{
+    background-color:rgb(240, 240, 240);
+    height:310px;
+    width:100%;
+    margin-top:50px;
+    padding-bottom:50px;
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+}
+.bmiCalculatorSection{
+    flex:1;
+    margin-left:150px;
+}
+.bmiChartSection{
+    flex:1;
+    margin-right:150px;
+    overflow: hidden;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th{
+    color:white;
+    background-color: rgba(16, 98, 222, 0.792);
+    font-size:15px;
+}
+td{
+    font-size:13px;
+    font-weight:bold;
+}
+td,th{
+    border: 1px solid rgb(223, 222, 222);
+    text-align:left;
+    padding:7px;
+    width:50%;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+.bmiFormula{
+    color:orange;
+    text-align: center;
+}
+.bmiHeader{
+    font-size:13px;
+    color:orange;
+    font-weight:bold;
+}
+.bmiTagline{
+    font-weight:bold;
+    font-size:45px;
+    color:black;
+}
+.bmiCalculator{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.heightField{
+    flex-basis: 50%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:5px;
+    margin-bottom:10px;
+}
+.inputField{
+    width:200px;
+    height:40px;
+    border-radius: 5px;
+    border:none;
+    font-size:13px;
+    font-weight: 600;
+}
+.bmiCalculatorBtn{
+    cursor: pointer;
+    margin-top:25px;
+    height:40px;
+    width:100px;
+    margin-left:5px;
+    font-weight:bold;
+    color:white;
+    border:none;
+    border-radius:5px;
+    background-color:rgba(16, 98, 222, 0.792) ;
+}
+.bmiResetCalculatorBtn{
+    cursor: pointer;
+    margin-top:25px;
+    height:40px;
+    width:100px;
+    margin-left:5px;
+    font-weight:bold;
+    color:white;
+    border:none;
+    border-radius:5px;
+    background-color:rgba(16, 98, 222, 0.792) ;
+}
+label{
+    display:block;
+    margin-bottom:5px;
+}
+.inputFieldLabel{
+    font-size: 13px;
+    font-weight:bold;
+    color:grey;
+}
+.genderDropdown{
+    width:200px;
+    height:40px;
+    font-weight: 600;
+    font-size:13px;
+    color:grey;
+}
+.activityFactorDropdown{
+    width:200px;
+    height:40px;
+    font-weight: 600;
+    font-size:13px;
+    color:grey;
+}
+.arrowIcon{
+    font-size:13px;
+    color:rgba(16, 98, 222, 0.792);
+    margin-right:5px;
+    vertical-align: middle;
+}

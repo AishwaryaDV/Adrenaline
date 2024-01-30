@@ -1,0 +1,195 @@
+.footerSection{
+   height:70vh;
+   background-color:rgb(240, 240, 240);
+   width:100%;
+   margin-top:50px;
+   position:relative;
+}
+.emailBox{
+    height:170px;
+    width:600px;
+    background-color:rgba(16, 98, 222, 0.792);
+    margin-left:450px;
+    position: absolute;
+    border-radius:10px;
+    z-index:10;
+    margin-top:-50px;
+    padding-top:10px;
+}
+.emailHeader{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    padding-top:10px;
+}
+.emailTagline{
+    margin-top:10px;
+    font-size:14px;
+    font-weight:600;
+    color:white;
+    text-align: center;
+
+}
+.emailWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    position:relative;
+}
+.inputEmail{
+    width:450px;
+    height:35px;
+    margin-right:10px;
+    border:none;
+    border-radius:10px;
+    margin-top:10px;
+}
+.subscribeBtn{
+    height:25px;
+    padding:5px;
+    width:90px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-weight:bold;
+    cursor: pointer;
+    position: absolute;
+    margin-left:330px;
+    margin-top:10px;
+}
+input::placeholder{
+    font-weight:bold;
+    padding-left:20px;
+}
+.footerDetails{
+    margin-top:150px;
+    display:flex;
+    flex-direction: row;
+    margin-left:150px;
+    margin-right:150px;
+    justify-content: space-between;
+    gap:50px;
+}
+.gymDetails{
+    height:250px;
+    width:300px;
+    padding-left:10px;
+    padding-top:20px;
+}
+.gymLinks{
+    height:250px;
+    width:300px;
+    padding-left:10px;
+    padding-top:20px;
+}
+.otherLinks{
+    height:250px;
+    width:300px;
+    padding-left:10px;
+    padding-top:20px;
+}
+.contactDetails{
+    height:250px;
+    width:300px;
+    padding-left:10px;
+    padding-top:10px;
+}
+.gymNameFooterSection{
+    font-size:20px;
+    font-weight:bold;
+}
+.logoNameFooter{
+    color:rgba(16, 98, 222, 0.792);
+}
+.gymDetailsTagline{
+    color:rgb(95, 95, 95);
+    font-weight:600;
+    font-size:15px;
+    line-height:22px;
+    margin-top:20px;
+}
+.socialMediaIcon{
+    color:white;
+    font-size:5px;
+    background-color:orange;
+    border-radius: 50%;
+    margin-top:20px;
+    height:20px;
+    width:20px;
+    padding:10px;
+    margin-right:20px;
+    cursor: pointer;
+}
+.gymLinksHeader{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+    color:rgba(16, 98, 222, 0.792);
+}
+.gymLink{
+    line-height:22px;
+    font-weight:600;
+    cursor: pointer;
+    margin-bottom:10px;
+    font-size:15px;
+}
+.contactIcon{
+    color:white;
+    font-size:5px;
+    background-color:orange;
+    border-radius: 50%;
+    height:20px;
+    width:20px;
+    padding:10px;
+    cursor: pointer;
+}
+.contactDetailsHeader{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+    color:rgba(16, 98, 222, 0.792);
+}
+.contactNo{
+    margin-top:-45px;
+    margin-left:50px;
+    font-size:15px;
+    font-weight:600;
+}
+.contactNo2{
+    margin-left:50px;
+    font-size:15px;
+    font-weight:600;
+}
+.contactSection{
+    margin-bottom:20px;
+}
+.address{
+    margin-top:-45px;
+    margin-left:50px;
+    font-size:14px;
+    font-weight:600;
+}
+.email{
+    margin-top:-35px;
+    margin-left:50px;
+    font-size:14px;
+    font-weight:600;
+}
+.line{
+    border-bottom: 1px solid rgb(188, 188, 188);
+    margin-left:150px;
+    margin-right:150px;
+}
+.copyrightLine{
+    font-size:12px;
+    font-weight:bold;
+    margin-left:150px;
+}
+.privacyLine{
+    font-size:12px;
+    font-weight:bold;
+    margin-left:675px;
+}

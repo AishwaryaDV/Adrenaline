@@ -1,0 +1,78 @@
+.servicesSection{
+    height:100vh;
+    margin-top:70px;
+}
+.ourServices{
+    text-align:center;
+    font-size:13px;
+    font-weight:bold;
+    color:orange;
+}
+.servicesHeader{
+    text-align:center;
+    font-weight:bold;
+    font-size:45px;
+}
+.servicesGridContainer{
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 230px 230px 230px;
+    margin-top:30px;
+    margin-left:300px;
+    margin-right:300px;
+    justify-content:space-between;
+    gap:50px;
+}
+.serviceGridBox{
+    text-align:center;
+    background-color:rgb(240, 240, 240);
+    border-radius:15px;
+    padding-top:40px;
+    padding-right:35px;
+    cursor: pointer;
+    position:relative;
+}
+.serviceGridBoxLast{
+    text-align:center;
+    background-color:rgb(240, 240, 240);
+    border-radius:15px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    cursor: pointer;
+    position:relative;
+}
+.serviceGridType{
+    position:absolute;
+    border-radius:10px;
+    height:20px;
+    width:130px;
+    text-align:center;
+    padding:5px;
+    font-size:13px;
+    box-shadow: 1px 1px 5px rgba(172, 172, 172, 0.5);
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:55px;
+    margin-top:-1px;
+    font-weight:bold;
+}
+.serviceTypeLast{
+    position:absolute;
+    border-radius:10px;
+    height:20px;
+    width:130px;
+    text-align:center;
+    padding:5px;
+    font-size:13px;
+    box-shadow: 1px 1px 5px rgba(172, 172, 172, 0.5);
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:38px;
+    margin-top:-25px;
+    font-weight:bold;
+}

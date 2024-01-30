@@ -1,0 +1,82 @@
+.scheduleSection{
+    height:70vh;
+    margin-left:150px;
+    margin-right:150px;
+}
+.classesHeader{
+    font-size:13px;
+    color:orange;
+    font-weight:bold;
+    text-align:center;
+}
+.classesHeaderTag{
+    text-align:center;
+    font-weight:bold;
+    font-size:45px;
+    color:black;
+}
+.gridClassesContainer{
+    display:grid;
+    grid-template-rows: repeat(4, 80px);
+    grid-template-columns: repeat(7, 130px);
+    justify-content: space-around;
+    gap:20px;
+    padding-top:20px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.gridItemClass{
+    margin-top:-40px;
+    height:80px;
+    margin-bottom:20px;
+    background-color:rgb(240, 240, 240);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:10px;
+}
+.gridItemWeekName{
+    background-color: orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.gridItemWeekName:nth-child(odd){
+    border-radius: 5px;
+    background-color: rgba(16, 98, 222, 0.792);;
+    box-sizing: border-box;
+}
+.classType{
+    font-size:13px;
+    font-weight: bold;
+    color:black;
+    margin-bottom:5px;
+    text-align:left;
+    margin-top:3px;
+}
+.classTimings{
+    font-size:12px;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+}
+.gridItemClass:nth-child(even) .classTimings{
+    color:rgba(16, 98, 222, 0.792);
+}
+.gridItemClass:nth-child(odd) .classTimings{
+    color:orange;
+}
+.classTrainer{
+    color:rgb(95, 95, 95);
+    font-size:12px;
+    font-weight:600;
+    text-align:left;
+}
